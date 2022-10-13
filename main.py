@@ -3,16 +3,16 @@ from collections import deque
 
 '''creacion de lista/diccionario'''
 
-names=[]
 names =  ['Alexs','Monica','Juan','David','Juan']
 num = {'18', '15', '20', '12', '3', '5'}
 lst = deque(["Computador", "Celular", "Televisor"])
+dic = {'game-1': 2056, 'game-2': 1256}
 
 
 '''menu de opciones'''
 
 while True:
-    print("***Menu prncipal***\n")
+    print("***Menu principal***\n")
     print("1. listas\n")
     print("2. listas como colas y compresion de listas.\n")
     print('3. Conjuntos\n')
@@ -75,7 +75,16 @@ while True:
         print('33' in num,'\n')   
 
     elif opc =="4":
-        print("Diccionarios:") 
+        print("Diccionarios: \n")
 
+        print('Creacion de Diccionario: ',dic) 
+        print('\n se agrega nuevo elemento al diccionario:')
+        dic['game-3'] = 2501
+        print(dic)
+        print('\nEliminacion de un dato')
+        del dic['game-1']
+        print(dic)
+        print('\n Se encuentra game-2 en el diccionario?')
+        print('game-2' in dic)
     else:
         print('Opcion no valida')           
