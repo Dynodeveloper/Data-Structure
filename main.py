@@ -5,6 +5,8 @@ from collections import deque
 
 names=[]
 names =  ['Alexs','Monica','Juan','David','Juan']
+num = {'18', '15', '20', '12', '3', '5'}
+lst = deque(["Computador", "Celular", "Televisor"])
 
 
 '''menu de opciones'''
@@ -47,7 +49,6 @@ while True:
     elif opc=="2":
 
         print("Usando listas como colas: \n")
-        lst = deque(["Computador", "Celular", "Televisor"])
         lst.append("Consola")          
         print('Se agrega nuevo dato: \n',lst)
         lst.append("Nevera")          
@@ -67,7 +68,6 @@ while True:
     elif opc =="3":
         print('Conjuntos: \n')
         print('Se crea un conjunto de numeros:')
-        num = {'18', '15', '20', '12', '3', '5'}
         print(num,'\n')  
         print('Se encuentra el numero 15 en el conjunto? \n')                    
         print('15' in num,'\n')    
