@@ -14,12 +14,17 @@ Primeramente debemos conocer el método “append”, este utilizado para agrega
 (estos mismos se almacenarán al final de las listas), un uso más cercano de este método lo podemos
 observar a continuación :
 >>nombre lista.append(“dato a agregar”)
+
 Así mismo encontramos el método extend que cumple mas misma función pero pudiendo agregar más
 datos iterativos.
+
 >>nombre lista.extend(“datos a agregar”)
+
 Seguido a esto encontramos el método “insert”, ahora utilizado para agregar datos y ubicarlos en una
 posición especifica, la sintaxis utilizada para este será la siguiente:
+
 >>nombre lista.insert(“ubicación que reemplazará el nuevo dato”,”dato a agregar”)
+
 Dentro de los métodos de consulta (buscar y brindar información de la lista), encontramos el método
 sort(organiza alfabética/Numéricamente la lista), count(muestra cuántas veces se repite un dato),
 index(da a conocer la posición que un dato ocupa en la lista), entre otros, la sintaxis de estas las
