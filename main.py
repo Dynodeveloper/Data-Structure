@@ -1,7 +1,7 @@
 import math
 from collections import deque
 
-'''creacion de lista/diccionario'''
+'''creacion de listas/diccionarios'''
 
 names = ['Alexs', 'Monica', 'Juan', 'David', 'Juan']
 num = {'18', '15', '20', '12', '3', '5'}
