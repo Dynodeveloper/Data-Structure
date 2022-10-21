@@ -1,6 +1,6 @@
 <h1>TALLER ESTRUCTURA DE DATOS<h1>
 
-                                         <h1>INTRODUCCIÓN<h1>
+<h1>INTRODUCCIÓN<h1>
 
 <p>En esta actividad conoceremos y utilizaremos métodos y técnicas especializadas en la estructuración y
 manejo de datos, empezando por un tema ya visto anteriormente como lo son las listas, este tipo de
@@ -32,46 +32,46 @@ index(da a conocer la posición que un dato ocupa en la lista), entre otros, la 
 veremos en los ejemplos adjuntos a la carpeta.<p>
 
 
-                                         <h2> 2.LISTAS EN PILAS<h2>
+<h2>                                       2.LISTAS EN PILAS                        <h2>
 
 <p>“Último en entrar, primero en salir”, con esto podemos definir a una pila, y esta función la podemos
 realizar con una lista, utilizando el método Append agregaremos un elemento al final de la lista, y
 seguido de esto, con el método pop, podremos eliminar el último elemento agregado.<p>
 
-                                         <h2> 3.LISTAS EN COLAS<h2>
+<h2>                                        3.LISTAS EN COLAS                      <h2>
 
 <p>Las colas tienen como función lo contrario a las pilas, se basan en “El primero en entrar, primero en
 salir”, esto si bien es más complicado de aplicar con una lista, podremos hacer uso de una librería
 como lo es “collections” para hacernos más sencillo el trabajo, pudiendo utilizar así el método popleft
 que eliminará el primer elemento que encuentre, en este caso partiendo del lado izquierdo. <p>
 
-                                         <h2> 4.COMPRENSIÓN DE LISTAS <h2>
+<h2>                                        4.COMPRENSIÓN DE LISTAS                <h2>
 
 <p>La comprensión de listas es una manera de generar y crear listas basadas en algoritmos o operaciones
 básicas Una lista de comprensión consiste de corchetes rodeando una expresión seguida de la
 declaración for y luego cero o más declaraciones for o if. El resultado será una nueva lista que sale de
 evaluar la expresión en el contexto de los for o if que le siguen.<p>
 
-                                         <h2> 5.INSTRUCCIÓN “DEL” <h2>
+<h2>                                        5.INSTRUCCIÓN “DEL”                    <h2>
 
 <p>El método del es similar al método pop, pero permite eliminar en base a la posición de un elemento en
 la lista, de igual forma permite eliminar un segmento de esta, todos los elementos de la lista, e incluso,
 una variable del programa.<p>
 
-                                         <h2>  6. TUPLAS Y SECUENCIAS <h2>
+<h2>                                        6. TUPLAS Y SECUENCIAS                 <h2>
 
 <p>Las tuplas por el contrario de las listas, son inmutables, sin embargo poseen elementos que si los son,
 se representan dentro de paréntesis, y para definir los elementos dentro de una tupla, deben de
 encontrarse separados por una coma, de igual forma se pueden empaquetar elementos en una variable,
 esto directamente convirtiéndola en una tupla.<p>
 
-                                         <h2>  7.CONJUNTOS <h2>
+<h2>                                        7.CONJUNTOS                            <h2>
 
 <p>La creación de conjuntos se basan en el método set(), este tipo de dato, almacena otros datos
 irrepetibles y sin ordenar, esto permite de igual forma, métodos de consulta como observar datos que
 se encuentren solo en un conjunto, o todos los de un solo conjunto, etc.<p>
 
-                                         <h2>  8.DICCIONARIOS<h2>
+<h2>                                        8.DICCIONARIOS                           <h2>
 
 <p>Los diccionarios son otro tipo de colección que encontramos en python, estos permiten almacenar
 datos anidados, esto normalmente utilizado para almacenar key and values o llaves y valores, por
@@ -79,25 +79,25 @@ ejemplo: “Computador”: 2000. Estos se inicializan con llaves y la separació
 se realiza con comas, de igual forma se pueden usar métodos de consulta para comprobar las llaves o
 saber si una está o no en dicho diccionario.<p>
 
-                                         <h2> 9.TÉCNICAS DE ITERACIÓN <h2>
+<h2>                                        9.TÉCNICAS DE ITERACIÓN                  <h2>
 
 <p>Las técnicas de iteración nos permiten realizar una consulta de una o más colecciones mientras una
 condición se cumpla, o por una cantidad definida de veces, esto gracias a los métodos for y while,
 estas técnicas y consultas varían en base a qué tipo de collecion se usa (diccionarios, tuplas o listas)<p>
 
-                                         <h2> 10. CONDICIONES <h2>
+<h2>                                        10. CONDICIONES                           <h2>
 
 <p>Las condiciones que podemos utilizar en los métodos anteriormente mencionados, pueden ser si bien
 comparaciones o operaciones, esto utilizando los operadores booleanos como lo son or, and, xor or
 not, siendo los primeros dos también llamados operadores cortocircuito, de igual forma podemos
 guardar el resultado de una comparación en una variable.<p>
 
-                                         <h2> 11. COMPARACIÓN DE SECUENCIAS <h2>
+<h2>                                       11. COMPARACIÓN DE SECUENCIAS               <h2>
 
 <p>La comparación de secuencias se puede hacer mediante el orden lexicográfico, esto segun sean strings
 o enteros, el tipo de dato que dichas colecciones posean<p>
 
-                                          <h2>  CONCLUSIÓN <h2>
+<h2>                                            CONCLUSIÓN                             <h2>
 
 <p>En este taller nos adentramos más en las funciones de almacenamiento y control de datos que
 podemos hacer con este lenguaje de programación, conocimos una librería nueva como lo fué
