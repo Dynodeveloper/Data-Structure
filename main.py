@@ -1,4 +1,4 @@
-
+import math
 from collections import deque
 
 '''creacion de lista/diccionario'''
@@ -17,6 +17,9 @@ a = [-1, 1, 66.25, 333, 333, 1234.5]
 knights = {'Nick': 'the Stronger', 'Monik': 'the queen'}
 qs = ['name', 'quest', 'favorite color']
 an = ['Cesar', 'the snake eater', 'black']
+dat = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]
+filt_dat = []
+
 
 '''menu de opciones'''
 
@@ -142,6 +145,10 @@ while True:
         print('con la funcion reversed y la secuencia en orden se puede iterar en orden contrario\n')  
         for i in sorted(names):
            print(i)
-        print('se puedeiterar sobre una secuencia ordenada y con la funcion sorted devolver una nueva sin cambiar la original\n')   
+        print('se puede iterar sobre una secuencia ordenada y con la funcion sorted devolver una nueva sin cambiar la original\n')   
+        for value in dat:
+            if not math.isnan(value):
+                  filt_dat.append(value)
+        print('si se desea cambiar una lista mientrs está siendo iterada es mas conveniente crear una lista nueva:\n',filt_dat)           
     else:
         print('Opcion no valida')
