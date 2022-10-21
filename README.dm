@@ -1,5 +1,5 @@
 TALLER ESTRUCTURA DE DATOS
-
+<img src="/f40.png">
 
                                          INTRODUCCIÓN
 
